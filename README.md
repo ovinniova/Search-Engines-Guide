@@ -14,7 +14,7 @@ A small educational website created while learning HTML and CSS.
 - images/
 
 ## Preview
-
+<img width="1829" height="865" alt="изображение" src="https://github.com/user-attachments/assets/433e828a-e8dc-460d-ab51-6a59c549e297" />
 
 ## Author
 Zarina Shafikova
