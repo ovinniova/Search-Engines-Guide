@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 2;
+    position: relative;
+    z-index: 0;
+    color: #222;
+    
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/white.flower.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
+.page {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1; 
+}
+
+.header {
+    position: relative;
+    color: white; 
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+
+    background-image: url("images/white_cat.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 2; 
+}
+
+
+.middle {
+    display: flex;
+    gap: 15px;
+}
+
+.menu {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.partners {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.bottom-blocks {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.block {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.partners-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 5px;
+}
+.partners-icons {
+border: none;
+padding: 0;
+margin-top: 10px;
+}
